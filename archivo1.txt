@@ -1,2 +1,68 @@
-sebastian
-garcia
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sebastián García - Hacker's Lawyer</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #111; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px 20px; }
+    .services, .contact-form { max-width: 800px; margin: 0 auto; }
+    .services h3 { margin-top: 0; }
+    .service-box { background: #f4f4f4; margin-bottom: 20px; padding: 20px; border-radius: 8px; }
+    form input, form textarea { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; }
+    form button { padding: 10px 20px; background: #111; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+    footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sebastián García</h1>
+  <p>Hacker's Lawyer - Defensa Legal en Ciberseguridad</p>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio">
+  <h2>Bienvenido</h2>
+  <p>Brindamos asesoría legal especializada en tecnología, delitos informáticos y protección digital. ¡Tu seguridad legal en el mundo digital comienza aquí!</p>
+</section>
+
+<section id="servicios" class="services">
+  <h2>Servicios</h2>
+  <div class="service-box">
+    <h3>Defensa en delitos informáticos</h3>
+    <p>Asesoría y representación en casos de hacking ético, ciberacoso, suplantación de identidad y más.</p>
+  </div>
+  <div class="service-box">
+    <h3>Consultoría en privacidad digital</h3>
+    <p>Ayudamos a empresas y usuarios a cumplir normas como la GDPR y a proteger sus datos personales.</p>
+  </div>
+  <div class="service-box">
+    <h3>Capacitaciones legales en ciberseguridad</h3>
+    <p>Charlas y talleres para organizaciones sobre aspectos legales en seguridad informática.</p>
+  </div>
+</section>
+
+<section id="contacto" class="contact-form">
+  <h2>Contáctanos</h2>
+  <form action="#" method="post">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+    <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sebastián García - Hacker's Lawyer. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
